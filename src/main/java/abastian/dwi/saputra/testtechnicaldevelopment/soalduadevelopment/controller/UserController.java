@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Set;
 
 @RestController
-@RequestMapping(path = "/soal-satu-development")
+@RequestMapping(path = "/soal-dua-development")
 public class UserController {
 
     @Autowired

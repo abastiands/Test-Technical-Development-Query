@@ -3,7 +3,6 @@ package abastian.dwi.saputra.testtechnicaldevelopment.soalduadevelopment.control
 import abastian.dwi.saputra.testtechnicaldevelopment.error.ExceptionResponse;
 import abastian.dwi.saputra.testtechnicaldevelopment.soalduadevelopment.model.UserRequest;
 import abastian.dwi.saputra.testtechnicaldevelopment.soalduadevelopment.model.UserResponse;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -33,7 +32,7 @@ class UserControllerTest {
         request.setName("");
 
         mockMvc.perform(
-                post("/soal-satu-development")
+                post("/soal-dua-development")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request))
@@ -53,7 +52,7 @@ class UserControllerTest {
         request.setAddress("alamat_kandidat");
 
         mockMvc.perform(
-                post("/soal-satu-development")
+                post("/soal-dua-development")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request))
