@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "ffba9ee5-d2e5-4349-8239-6438b24c0333",
+		"name": "TEST TECHNICAL DEVELOPMENT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "13586670"
+	},
+	"item": [
+		{
+			"name": "Soal Dua Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"nama_kandidat\",\r\n    \"address\": \"alamat_kandidat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/soal-dua-development"
+			},
+			"response": []
+		},
+		{
+			"name": "Soal Tiga Create Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nid\": 10,\r\n    \"officeId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/soal-tiga-development"
+			},
+			"response": []
+		}
+	]
+}
