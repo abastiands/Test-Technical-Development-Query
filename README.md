@@ -18,6 +18,6 @@ https://github.com/abastiands/Test-Technical-Development-Query/blob/main/src/mai
 - Can use this file pptx: Test Technical Development & Query.pptx
 - All my answer can see on this ppt
 
-THANK FOR ALL
+<b>THANK FOR ALL</b>
 <br/>
-GOD BLESS YOU
+<b>GOD BLESS YOU</b>
