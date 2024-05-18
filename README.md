@@ -1,5 +1,5 @@
 <h1>TEST TECHNICAL DEVELOPMENT</h1>
-<p>Created By: Abastian Dwi Saputra</p>
+<h2>Created By: Abastian Dwi Saputra</h2>
 
 STEP BY STOP HOW TO RUN APPLICATION
 1. Nomor 1 Development
